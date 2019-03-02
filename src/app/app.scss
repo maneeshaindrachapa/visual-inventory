@@ -1,16 +1,34 @@
-// http://ionicframework.com/docs/theming/
+@font-face {
+  font-family: "KionaRegular";
+  src: url("../assets/fonts/KionaRegular.eot");
+  src: url("../assets/fonts/KionaRegular.eot") format("embedded-opentype"),
+    url("../assets/fonts/KionaRegular.woff2") format("woff2"), url("../assets/fonts/KionaRegular.woff") format("woff"),
+    url("../assets/fonts/KionaRegular.ttf") format("truetype"),
+    url("../assets/fonts/KionaRegular.svg#KionaRegular") format("svg");
+}
 
+ion-icon {
+  padding-right: 5%;
+  color: #fff;
+}
+.content-color {
+  background-image: url("../../assets/imgs/background_image_2.png");
+  background-repeat: none;
+  background-size: cover;
+  font-size: 30px !important;
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+  .menu-buttons {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #dfdfdf;
+    padding-bottom: 5px;
+    font-size: 20px !important;
+  }
+  .sign-out {
+    position: absolute;
+    bottom: 0px;
+    border: none;
+  }
+  ion-list {
+    margin-top: 105px;
+  }
+}

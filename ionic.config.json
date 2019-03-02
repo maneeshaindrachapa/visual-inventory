@@ -1,5 +1,7 @@
 {
   "name": "visualinventory",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
